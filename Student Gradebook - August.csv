@@ -32,6 +32,7 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 5,Video Resume,8/1/2019,Profile Building,"Creativity,Communication,Intent,Confidence",Apurwa,1,16.5,20,0
 5,Video Resume,8/1/2019,Profile Building,"Creativity,Communication,Intent,Confidence",Ujjainee,0,18,20,0
 5,Video Resume,8/1/2019,Profile Building,"Creativity,Communication,Intent,Confidence",Vishal,0,17.5,20,0
+5,Video Resume,8/1/2019,Profile Building,"Creativity,Communication,Intent,Confidence",Swaastik,1,16,20,0
 0,AjKyaUkhada,2019-08-02 6:27:15,Ritual,Consistency,Nitish,0,2,2,0
 0,AjKyaUkhada,2019-08-02 6:27:28,Ritual,Consistency,Nitish,0,2,2,0
 0,AjKyaUkhada,2019-08-02 6:28:24,Ritual,Consistency,Sonali,0,2,2,0
@@ -70,6 +71,8 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 6,Online Resume,03/08/2019,Profile Building,"Creativity,Intent,sincerity",Apurwa,0,18,20,0
 6,Online Resume,03/08/2019,Profile Building,"Creativity,Intent,sincerity",Ujjainee,0,17.5,20,0
 6,Online Resume,03/08/2019,Profile Building,"Creativity,Intent,sincerity",Vishal,0,16,20,0
+6,Online Resume,03/08/2019,Profile Building,"Creativity,Intent,sincerity",Bhavna,0,13,20,0
+6,Online Resume,03/08/2019,Profile Building,"Creativity,Intent,sincerity",Sharika,1,16,20,0
 0,AjKyaUkhada,2019-08-03 15:34:28,Ritual,Consistency,Kunal,0,2,2,0
 0,AjKyaUkhada,2019-08-03 16:01:36,Ritual,Consistency,Siddhishikha,0,2,2,0
 0,AjKyaUkhada,2019-08-03 16:05:57,Ritual,Consistency,Ujjainee,0,2,2,0
@@ -98,6 +101,12 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Apurwa,0,7,10,0
 7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Ujjainee,0,9.5,10,0
 7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Vishal,0,9.5,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Anjali,0,8,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Bhavna,0,8,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Durga,1,9,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Shantanu,1,8.5,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Siddhishikha,1,8.5,10,0
+7,Blog and Project Pages,04/08/2019,Profile Building,"Creativity, Intent",Swaastik,1,8.5,10,0
 0,AjKyaUkhada,2019-08-04 2:52:50,Ritual,Consistency,,0,2,2,0
 0,AjKyaUkhada,2019-08-04 3:30:56,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-04 15:25:00,Ritual,Consistency,Durga,0,2,2,0
@@ -189,32 +198,32 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 0,AjKyaUkhada,2019-08-08 19:33:22,Ritual,Consistency,Apurwa,0,2,2,0
 0,AjKyaUkhada,2019-08-08 22:09:01,Ritual,Consistency,Roumyak,0,2,2,0
 0,AjKyaUkhada,2019-08-09 3:17:35,Ritual,Consistency,Shantanu,0,2,2,0
-0,Knowledge Sharing,2019-08-09 2:36:48,Ritual,"Consistency,Curiosity",Purbita,0,5,5,0
-0,Knowledge Sharing,2019-08-09 8:56:51,Ritual,"Consistency,Curiosity",Prasoon,0,5,5,0
-0,Knowledge Sharing,2019-08-09 10:12:00,Ritual,"Consistency,Curiosity",Shakib,0,5,5,0
-0,Knowledge Sharing,2019-08-09 10:25:11,Ritual,"Consistency,Curiosity",Kunal,0,5,5,0
+0,Knowledge Sharing,2019-08-09 2:36:48,Ritual,"Consistency,Curiosity",Purbita,0,2,2,0
+0,Knowledge Sharing,2019-08-09 8:56:51,Ritual,"Consistency,Curiosity",Prasoon,0,2,2,0
+0,Knowledge Sharing,2019-08-09 10:12:00,Ritual,"Consistency,Curiosity",Shakib,0,2,2,0
+0,Knowledge Sharing,2019-08-09 10:25:11,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
 0,AjKyaUkhada,2019-08-09 12:10:29,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-09 14:57:40,Ritual,Consistency,Durga,0,2,2,0
 0,AjKyaUkhada,2019-08-09 14:58:41,Ritual,Consistency,Kunal,0,2,2,0
 0,AjKyaUkhada,2019-08-09 15:00:57,Ritual,Consistency,Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-09 16:16:41,Ritual,Consistency,Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-09 16:17:55,Ritual,Consistency,Surabhi,0,2,2,0
-0,Knowledge Sharing,2019-08-09 16:31:57,Ritual,"Consistency,Curiosity",Surabhi,0,5,5,0
+0,Knowledge Sharing,2019-08-09 16:31:57,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-09 16:59:20,Ritual,Consistency,Purbita,0,2,2,0
-0,Knowledge Sharing,2019-08-09 17:00:44,Ritual,"Consistency,Curiosity",Purbita,0,5,5,0
-0,Knowledge Sharing,2019-08-09 17:10:29,Ritual,"Consistency,Curiosity",Sharika,0,5,5,0
-0,Knowledge Sharing,2019-08-09 17:10:57,Ritual,"Consistency,Curiosity",Sonali,0,5,5,0
+0,Knowledge Sharing,2019-08-09 17:00:44,Ritual,"Consistency,Curiosity",Purbita,0,2,2,0
+0,Knowledge Sharing,2019-08-09 17:10:29,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
+0,Knowledge Sharing,2019-08-09 17:10:57,Ritual,"Consistency,Curiosity",Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-09 17:29:47,Ritual,Consistency,Kaushal,0,2,2,0
-0,Knowledge Sharing,2019-08-09 17:31:15,Ritual,"Consistency,Curiosity",Chandrima,0,5,5,0
+0,Knowledge Sharing,2019-08-09 17:31:15,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-09 17:33:13,Ritual,Consistency,Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-09 17:41:18,Ritual,Consistency,Roumyak,0,2,2,0
 0,AjKyaUkhada,2019-08-09 17:53:46,Ritual,Consistency,Shakib,0,2,2,0
 0,AjKyaUkhada,2019-08-09 17:58:33,Ritual,Consistency,Dipam,0,2,2,0
-0,Knowledge Sharing,2019-08-09 18:17:18,Ritual,"Consistency,Curiosity",Ujjainee,0,5,5,0
+0,Knowledge Sharing,2019-08-09 18:17:18,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-09 19:40:19,Ritual,Consistency,Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-10 4:11:39,Ritual,Consistency,,0,2,2,0
 0,AjKyaUkhada,2019-08-10 8:37:45,Ritual,Consistency,Apurwa,0,2,2,0
-0,Knowledge Sharing,2019-08-10 13:20:00,Ritual,"Consistency,Curiosity",Vishal,0,5,5,0
+0,Knowledge Sharing,2019-08-10 13:20:00,Ritual,"Consistency,Curiosity",Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-10 15:52:16,Ritual,Consistency,Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-10 15:53:13,Ritual,Consistency,Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-10 15:53:34,Ritual,Consistency,Kunal,0,2,2,0
@@ -222,48 +231,48 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 0,AjKyaUkhada,2019-08-10 15:56:50,Ritual,Consistency,Purbita,0,2,2,0
 0,AjKyaUkhada,2019-08-10 16:32:52,Ritual,Consistency,Durga,0,2,2,0
 0,AjKyaUkhada,2019-08-10 16:57:00,Ritual,Consistency,Ujjainee,0,2,2,0
-0,Knowledge Sharing,2019-08-10 16:59:51,Ritual,"Consistency,Curiosity",Ujjainee,0,5,5,0
+0,Knowledge Sharing,2019-08-10 16:59:51,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-10 17:19:44,Ritual,Consistency,,0,2,2,0
 0,AjKyaUkhada,2019-08-10 17:33:15,Ritual,Consistency,Dipam,0,2,2,0
-0,Knowledge Sharing,2019-08-10 17:40:39,Ritual,"Consistency,Curiosity",Surabhi,0,5,5,0
+0,Knowledge Sharing,2019-08-10 17:40:39,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-10 17:42:11,Ritual,Consistency,Surabhi,0,2,2,0
-0,Knowledge Sharing,2019-08-10 17:53:24,Ritual,"Consistency,Curiosity",Chandrima,0,5,5,0
+0,Knowledge Sharing,2019-08-10 17:53:24,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-10 17:54:19,Ritual,Consistency,Kaushal,0,2,2,0
 0,AjKyaUkhada,2019-08-10 18:25:38,Ritual,Consistency,Vishal,0,2,2,0
-0,Knowledge Sharing,2019-08-10 18:29:14,Ritual,"Consistency,Curiosity",Sharika,0,5,5,0
+0,Knowledge Sharing,2019-08-10 18:29:14,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-10 19:27:10,Ritual,Consistency,Apurwa,0,2,2,0
 0,AjKyaUkhada,2019-08-10 20:12:23,Ritual,Consistency,Shakib,0,2,2,0
 0,AjKyaUkhada,2019-08-11 0:01:20,Ritual,Consistency,Prasoon,0,2,2,0
-0,Knowledge Sharing,2019-08-11 0:03:03,Ritual,"Consistency,Curiosity",Prasoon,0,5,5,0
-0,Knowledge Sharing,2019-08-11 1:49:51,Ritual,"Consistency,Curiosity",Dipam,0,5,5,0
-0,Knowledge Sharing,2019-08-11 2:17:18,Ritual,"Consistency,Curiosity",,0,5,5,0
+0,Knowledge Sharing,2019-08-11 0:03:03,Ritual,"Consistency,Curiosity",Prasoon,0,2,2,0
+0,Knowledge Sharing,2019-08-11 1:49:51,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,Knowledge Sharing,2019-08-11 2:17:18,Ritual,"Consistency,Curiosity",,0,2,2,0
 0,AjKyaUkhada,2019-08-11 4:52:26,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-11 4:53:38,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-11 14:59:07,Ritual,Consistency,Purbita,0,2,2,0
 0,AjKyaUkhada,2019-08-11 15:02:22,Ritual,Consistency,Kunal,0,2,2,0
 0,AjKyaUkhada,2019-08-11 15:26:04,Ritual,Consistency,Ujjainee,0,2,2,0
-0,Knowledge Sharing,2019-08-11 15:27:25,Ritual,"Consistency,Curiosity",Ujjainee,0,5,5,0
+0,Knowledge Sharing,2019-08-11 15:27:25,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-11 15:28:57,Ritual,Consistency,Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-11 15:29:09,Ritual,Consistency,Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-11 16:04:50,Ritual,Consistency,Siddhishikha,0,2,2,0
 0,AjKyaUkhada,2019-08-11 16:28:39,Ritual,Consistency,Prasoon,0,2,2,0
-0,Knowledge Sharing,2019-08-11 16:51:18,Ritual,"Consistency,Curiosity",Chandrima,0,5,5,0
+0,Knowledge Sharing,2019-08-11 16:51:18,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-11 17:17:20,Ritual,Consistency,Sharika,0,2,2,0
-0,Knowledge Sharing,2019-08-11 17:18:14,Ritual,"Consistency,Curiosity",Sharika,0,5,5,0
+0,Knowledge Sharing,2019-08-11 17:18:14,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-11 17:54:36,Ritual,Consistency,Shakib,0,2,2,0
 0,AjKyaUkhada,2019-08-11 18:29:11,Ritual,Consistency,Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-11 18:29:50,Ritual,Consistency,Surabhi,0,2,2,0
-0,Knowledge Sharing,2019-08-11 18:53:16,Ritual,"Consistency,Curiosity",Surabhi,0,5,5,0
+0,Knowledge Sharing,2019-08-11 18:53:16,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-12 2:10:49,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-12 3:56:01,Ritual,Consistency,Swaastick,0,2,2,0
-0,Knowledge Sharing,2019-08-12 4:14:04,Ritual,"Consistency,Curiosity",Shakib,0,5,5,0
-0,Knowledge Sharing,2019-08-12 4:51:51,Ritual,"Consistency,Curiosity",Dipam,0,5,5,0
-0,Knowledge Sharing,2019-08-12 8:23:51,Ritual,"Consistency,Curiosity",Chandrima,0,5,5,0
+0,Knowledge Sharing,2019-08-12 4:14:04,Ritual,"Consistency,Curiosity",Shakib,0,2,2,0
+0,Knowledge Sharing,2019-08-12 4:51:51,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,Knowledge Sharing,2019-08-12 8:23:51,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-12 9:32:57,Ritual,Consistency,Apurwa,0,2,2,0
-0,Knowledge Sharing,2019-08-12 14:03:02,Ritual,"Consistency,Curiosity",Vishal,0,5,5,0
+0,Knowledge Sharing,2019-08-12 14:03:02,Ritual,"Consistency,Curiosity",Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-12 15:04:06,Ritual,Consistency,Purbita,0,2,2,0
 0,AjKyaUkhada,2019-08-12 15:09:32,Ritual,Consistency,Kunal,0,2,2,0
-0,Knowledge Sharing,2019-08-12 15:27:39,Ritual,"Consistency,Curiosity",Surabhi,0,5,5,0
+0,Knowledge Sharing,2019-08-12 15:27:39,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-12 15:30:13,Ritual,Consistency,Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-12 15:37:07,Ritual,Consistency,Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-12 16:03:27,Ritual,Consistency,Prasoon,0,2,2,0
@@ -274,55 +283,57 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 0,AjKyaUkhada,2019-08-12 17:22:05,Ritual,Consistency,Shantanu,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:22:43,Ritual,Consistency,Shantanu,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:29:44,Ritual,Consistency,Sharika,0,2,2,0
-0,Knowledge Sharing,2019-08-12 17:34:42,Ritual,"Consistency,Curiosity",Sharika,0,5,5,0
+0,Knowledge Sharing,2019-08-12 17:34:42,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:37:51,Ritual,Consistency,Sonali,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:39:38,Ritual,Consistency,Durga,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:47:25,Ritual,Consistency,Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:50:30,Ritual,Consistency,Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-12 17:53:24,Ritual,Consistency,Shakib,0,2,2,0
-0,Knowledge Sharing,2019-08-12 18:28:43,Ritual,"Consistency,Curiosity",Dipam,0,5,5,0
+0,Knowledge Sharing,2019-08-12 18:28:43,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-12 21:59:47,Ritual,Consistency,Roumyak,0,2,2,0
 0,AjKyaUkhada,2019-08-13 3:38:16,Ritual,Consistency,Apurwa,0,2,2,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Chandrima,1,7,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Dipam,0,9,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Durga,0,8,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Kaushal,0,7,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Arya,1,7,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Durga,0,9.5,10,1
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Prasoon,1,7,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Purbita,0,9,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Roumyak,0,7.5,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Shakib,0,9.5,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Sonali,0,7,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Surabhi,0,9.5,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Swaastick,1,9,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Apurwa,0,6.5,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Ujjainee,0,8.5,10,0
-9,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Vishal,0,9,10,0
-0,Knowledge Sharing,2019-08-13 14:35:01,Ritual,"Consistency,Curiosity",Swaastick,0,5,5,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Chandrima,1,7,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Dipam,0,9,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Durga,0,8,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Kaushal,0,7,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Arya,1,7,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Kunal,0,9.5,10,1
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Prasoon,1,7,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Purbita,0,9,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Roumyak,0,7.5,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Shakib,0,9.5,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Sonali,0,7,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Surabhi,0,9.5,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Swaastick,1,9,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Apurwa,0,6.5,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Ujjainee,0,8.5,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Vishal,0,9,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Bhavna,0,9,10,0
+8,Github Profile Creation,13/08/2019,Profile Building,"Sincerity,Hard-work",Siddhishikha,1,8.5,10,0
+0,Knowledge Sharing,2019-08-13 14:35:01,Ritual,"Consistency,Curiosity",Swaastick,0,2,2,0
 0,AjKyaUkhada,2019-08-13 15:39:31,Ritual,Consistency,Durga,0,2,2,0
 0,AjKyaUkhada,2019-08-13 15:47:22,Ritual,Consistency,Siddhishikha,0,2,2,0
-0,Knowledge Sharing,2019-08-13 15:51:54,Ritual,"Consistency,Curiosity",Surabhi,0,5,5,0
+0,Knowledge Sharing,2019-08-13 15:51:54,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-13 15:54:11,Ritual,Consistency,Surabhi,0,2,2,0
 0,AjKyaUkhada,2019-08-13 16:06:32,Ritual,Consistency,Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-13 16:07:24,Ritual,Consistency,Ujjainee,0,2,2,0
 0,AjKyaUkhada,2019-08-13 16:23:13,Ritual,Consistency,Kunal,0,2,2,0
 0,AjKyaUkhada,2019-08-13 16:25:38,Ritual,Consistency,Swaastick,0,2,2,0
-0,Knowledge Sharing,2019-08-13 17:59:48,Ritual,"Consistency,Curiosity",Dipam,0,5,5,0
+0,Knowledge Sharing,2019-08-13 17:59:48,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-13 18:15:37,Ritual,Consistency,Shakib,0,2,2,0
 0,AjKyaUkhada,2019-08-13 18:21:55,Ritual,Consistency,Kaushal,0,2,2,0
 0,AjKyaUkhada,2019-08-13 18:45:06,Ritual,Consistency,Sharika,0,2,2,0
 0,AjKyaUkhada,2019-08-13 19:23:50,Ritual,Consistency,Shantanu,0,2,2,0
 0,AjKyaUkhada,2019-08-13 19:24:09,Ritual,Consistency,Shantanu,0,2,2,0
 0,AjKyaUkhada,2019-08-13 19:35:05,Ritual,Consistency,Chandrima,0,2,2,0
-0,Knowledge Sharing,2019-08-13 19:37:07,Ritual,"Consistency,Curiosity",Chandrima,0,5,5,0
+0,Knowledge Sharing,2019-08-13 19:37:07,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
 0,AjKyaUkhada,2019-08-13 19:57:56,Ritual,Consistency,Vishal,0,2,2,0
 0,AjKyaUkhada,2019-08-13 19:59:50,Ritual,Consistency,Apurwa,0,2,2,0
 0,AjKyaUkhada,2019-08-13 23:00:09,Ritual,Consistency,Purbita,0,2,2,0
 0,AjKyaUkhada,2019-08-14 1:09:15,Ritual,Consistency,Prasoon,0,2,2,0
-0,Knowledge Sharing,2019-08-14 4:39:38,Ritual,"Consistency,Curiosity",Swaastick,0,5,5,0
-0,Knowledge Sharing,2019-08-14 4:47:42,Ritual,"Consistency,Curiosity",Ujjainee,0,5,5,0
-0,Knowledge Sharing,2019-08-14 5:21:39,Ritual,"Consistency,Curiosity",Prasoon,0,5,5,0
+0,Knowledge Sharing,2019-08-14 4:39:38,Ritual,"Consistency,Curiosity",Swaastick,0,2,2,0
+0,Knowledge Sharing,2019-08-14 4:47:42,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
+0,Knowledge Sharing,2019-08-14 5:21:39,Ritual,"Consistency,Curiosity",Prasoon,0,2,2,0
 0,AjKyaUkhada,2019-08-14 7:39:02,Ritual,Consistency,Sonali,0,2,2,0
 10,PPT Submission,14/08/2019,Machine Learning,Diligence,Anjali,1,5,5,0
 10,PPT Submission,14/08/2019,Machine Learning,Diligence,Bhavna,1,5,5,0
@@ -524,24 +535,6 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 0,AjKyaUkhada,2019-08-23 4:51:43,Ritual,Consistency,Roumyak,0,2,2,0
 0,Knowledge Sharing,2019-08-23 5:20:19,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
 0,AjKyaUkhada,2019-08-23 7:11:03,Ritual,Consistency,Prasoon,0,2,2,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Chandrima,1,7,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Dipam,0,9,10,1
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Durga,0,8,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Kaushal,0,7,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Arya,1,7,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Kunal,0,9.5,10,1
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Prasoon,1,7,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Purbita,0,9,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Roumyak,1,7.5,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Shakib,0,9.5,10,1
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Sonali,0,7,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Surabhi,0,9.5,10,1
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Swaastick,0,9,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Apurwa,0,6.5,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Ujjainee,0,8.5,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Vishal,0,9,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Shantanu,1,8,10,0
-8,Github Profile Review,12/08/2019,Profile Building,sincerity,Sharika,0,9,10,0
 9,Blog on Data Analysis Process,23/08/2019,Data Analytics,"Analysis, communication, sincerity",Chandrima,1,23.5,30,1
 9,Blog on Data Analysis Process,23/08/2019,Data Analytics,"Analysis, communication, sincerity",Dipam,0,23,30,0
 9,Blog on Data Analysis Process,23/08/2019,Data Analytics,"Analysis, communication, sincerity",Durga,1,24,30,0
@@ -578,3 +571,342 @@ id,Task,Date,Module,Type,Student,Late Submission,Points,Total,Task Winner
 0,AjKyaUkhada,2019-08-24 2:00:44,Ritual,Consistency,Swaastick,0,2,2,0
 0,AjKyaUkhada,2019-08-24 4:48:30,Ritual,Consistency,Shantanu,0,2,2,0
 0,AjKyaUkhada,2019-08-24 5:05:07,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-24 11:55:47,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-08-24 16:22:11,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-24 16:28:42,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-24 16:48:24,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-24 16:59:28,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-24 17:18:42,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-24 17:22:21,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-24 17:45:58,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-24 17:54:39,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-24 18:02:41,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-08-24 18:06:19,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-24 18:21:16,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-24 18:48:26,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-24 19:12:08,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-24 19:51:19,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-25 3:01:11,Ritual,Consistency,Roumyak,0,2,2,0
+0,AjKyaUkhada,2019-08-25 3:25:06,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-08-25 13:18:17,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-25 15:46:34,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:12:02,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:12:44,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:13:15,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:14:09,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:27:05,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:40:58,Ritual,Consistency,Roumyak,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:42:11,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-25 16:44:13,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-25 17:17:09,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-25 17:53:58,Ritual,Consistency,Sharika,0,2,2,0
+0,Knowledge Sharing,2019-08-25 17:55:05,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-25 18:06:02,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-25 18:17:22,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-25 18:22:53,Ritual,Consistency,Kaushal,0,2,2,0
+0,Knowledge Sharing,2019-08-25 21:55:39,Ritual,"Consistency,Curiosity",Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-26 3:38:26,Ritual,Consistency,Swaastick,0,2,2,0
+0,Knowledge Sharing,2019-08-26 4:36:20,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-26 6:24:11,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-26 13:37:19,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-08-26 14:42:47,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
+0,Knowledge Sharing,2019-08-26 14:43:32,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-26 14:51:43,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-26 14:53:14,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-26 16:49:44,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:01:19,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:02:29,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:10:41,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:13:34,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:41:46,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:44:00,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-26 17:44:12,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-26 18:17:13,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-26 18:40:25,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-08-26 21:31:30,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-27 2:41:24,Ritual,Consistency,Apurwa,0,2,2,0
+0,Knowledge Sharing,2019-08-27 2:53:40,Ritual,"Consistency,Curiosity",Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-27 3:13:39,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-27 12:10:31,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-08-27 14:01:48,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-27 14:04:13,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-27 14:50:15,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-27 15:44:59,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-27 15:59:55,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-27 16:00:50,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-27 16:50:46,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-27 16:56:20,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-27 17:51:01,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-27 18:16:46,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-27 18:17:37,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-08-27 18:45:36,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-27 20:26:29,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-27 22:45:25,Ritual,Consistency,Roumyak,0,2,2,0
+0,AjKyaUkhada,2019-08-28 1:01:42,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,Knowledge Sharing,2019-08-28 2:26:32,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-28 4:47:50,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-28 7:43:44,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-28 12:52:49,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-08-28 14:53:18,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-28 16:06:27,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-28 16:18:44,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-28 16:22:22,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-28 16:23:06,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-28 16:33:04,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-28 17:24:21,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-28 17:43:09,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-28 18:04:24,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-28 18:10:25,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-28 18:25:44,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-28 18:25:54,Ritual,Consistency,Kaushal,0,2,2,0
+0,Knowledge Sharing,2019-08-28 18:27:25,Ritual,"Consistency,Curiosity",Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-08-28 19:12:20,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-29 11:33:28,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-08-29 13:27:16,Ritual,"Consistency,Curiosity",Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-29 13:49:31,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-29 15:29:19,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-29 15:33:01,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-29 15:37:06,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-29 15:42:32,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-29 15:57:59,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-29 16:31:45,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-29 16:37:25,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-29 17:12:11,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-29 17:38:08,Ritual,Consistency,Durga,0,2,2,0
+0,Knowledge Sharing,2019-08-29 18:15:48,Ritual,"Consistency,Curiosity",Shakib,0,2,2,0
+0,Knowledge Sharing,2019-08-29 18:21:57,Ritual,"Consistency,Curiosity",Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-29 20:07:07,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-08-29 21:46:39,Ritual,Consistency,Roumyak,0,2,2,0
+0,AjKyaUkhada,2019-08-30 1:33:56,Ritual,Consistency,Prasoon,0,2,2,0
+0,Knowledge Sharing,2019-08-30 1:46:47,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-30 14:29:55,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-08-30 14:30:35,Ritual,"Consistency,Curiosity",Sonali,0,2,2,0
+0,AjKyaUkhada,2019-08-30 14:42:46,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-30 15:01:19,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-30 15:40:24,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-30 15:43:24,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-30 15:47:15,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-30 16:04:16,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-30 16:10:23,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-30 16:29:24,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-30 16:48:42,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-30 17:03:07,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-30 18:15:46,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-30 18:16:03,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-30 19:11:27,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-08-30 20:03:02,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-31 4:03:59,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-31 4:06:08,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-08-31 7:17:20,Ritual,Consistency,Vishal,0,2,2,0
+0,Knowledge Sharing,2019-08-31 7:45:41,Ritual,"Consistency,Curiosity",Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-31 8:18:58,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-08-31 10:40:39,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-08-31 13:45:54,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-31 14:33:42,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-08-31 15:03:26,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-08-31 15:03:42,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-08-31 15:32:27,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-08-31 15:45:44,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-08-31 16:31:22,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-08-31 16:53:42,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-08-31 17:02:14,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-08-31 17:26:56,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-08-31 17:41:28,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-08-31 17:50:27,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-08-31 18:16:07,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-08-31 19:04:54,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-08-31 19:30:53,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-08-31 21:38:53,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-01 4:23:21,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-01 7:16:34,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-09-01 7:59:23,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-09-01 9:11:12,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-01 9:46:17,Ritual,Consistency,Swaastick,0,2,2,0
+0,Knowledge Sharing,2019-09-01 11:29:46,Ritual,"Consistency,Curiosity",Nitish,0,2,2,0
+0,Knowledge Sharing,2019-09-01 13:27:39,Ritual,"Consistency,Curiosity",Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-01 16:14:57,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-01 16:24:12,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:14:51,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:20:58,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:39:47,Ritual,Consistency,Sharika,0,2,2,0
+0,Knowledge Sharing,2019-09-01 17:40:53,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:44:25,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:44:53,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-01 17:55:40,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-01 18:05:22,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-01 18:08:18,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-01 18:26:06,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-01 18:51:35,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-01 18:55:24,Ritual,Consistency,Roumyak,0,2,2,0
+0,AjKyaUkhada,2019-09-01 20:03:46,Ritual,Consistency,Apurwa,0,2,2,0
+0,Knowledge Sharing,2019-09-02 1:38:25,Ritual,"Consistency,Curiosity",Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-02 3:37:05,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-09-02 4:23:55,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-02 8:58:10,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-02 12:42:19,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-09-02 15:39:10,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-02 15:48:39,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-02 15:58:16,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-02 16:04:23,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-02 16:12:49,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-02 16:13:52,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-02 16:45:18,Ritual,Consistency,Durga,0,2,2,0
+0,Knowledge Sharing,2019-09-02 17:27:37,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-02 17:38:49,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-02 17:39:07,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-02 19:57:48,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-02 20:18:54,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-02 20:23:01,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-03 2:36:59,Ritual,Consistency,Swaastick,0,2,2,0
+0,Knowledge Sharing,2019-09-03 5:10:34,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,Knowledge Sharing,2019-09-03 10:18:12,Ritual,"Consistency,Curiosity",Prasoon,0,2,2,0
+0,Knowledge Sharing,2019-09-03 10:20:35,Ritual,"Consistency,Curiosity",Purbita,0,2,2,0
+0,Knowledge Sharing,2019-09-03 13:17:25,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-03 13:19:01,Ritual,Consistency,Kunal,0,2,2,0
+0,Knowledge Sharing,2019-09-03 13:42:46,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-03 15:32:03,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-03 15:55:46,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-03 15:58:22,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:11:32,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:12:34,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:13:25,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:14:53,Ritual,Consistency,Arya,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:15:51,Ritual,Consistency,Arya,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:18:05,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:42:10,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-09-03 16:50:08,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-03 17:18:38,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-03 18:16:33,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-03 18:30:44,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-03 18:31:36,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-03 18:56:23,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-03 19:39:02,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-03 21:50:50,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-03 22:32:03,Ritual,Consistency,Roumyak,0,2,2,0
+0,Knowledge Sharing,2019-09-04 2:27:54,Ritual,"Consistency,Curiosity",Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-04 12:53:48,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-04 14:08:06,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-04 15:06:49,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-04 15:09:14,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-04 15:15:15,Ritual,Consistency,Arya,0,2,2,0
+0,AjKyaUkhada,2019-09-04 15:53:35,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-04 16:27:29,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-04 16:28:38,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-04 16:29:29,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-04 16:29:58,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-04 16:36:19,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-04 17:06:41,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-04 17:13:39,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-04 17:21:07,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-04 17:45:30,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-04 18:15:38,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-04 19:48:37,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-05 0:09:46,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-05 6:22:11,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-05 11:30:52,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-09-05 14:41:10,Ritual,"Consistency,Curiosity",Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-05 14:44:00,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-05 15:42:06,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-05 15:43:05,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-05 15:50:55,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-05 16:33:45,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:05:31,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:10:22,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:24:36,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:39:12,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:41:18,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,Knowledge Sharing,2019-09-05 17:43:36,Ritual,"Consistency,Curiosity",Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-05 17:48:49,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-05 18:16:47,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-05 18:53:39,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-05 19:58:27,Ritual,Consistency,Kaushal,0,2,2,0
+0,Knowledge Sharing,2019-09-05 20:01:03,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-05 20:04:55,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-06 3:21:22,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-06 3:35:09,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-09-06 7:28:48,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-06 7:54:29,Ritual,Consistency,Prasoon,0,2,2,0
+0,Knowledge Sharing,2019-09-06 10:01:53,Ritual,"Consistency,Curiosity",Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-06 15:28:43,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-06 15:31:01,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-06 15:47:16,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-06 15:47:51,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:01:41,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:07:57,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:10:16,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:16:18,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:19:34,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-06 17:53:08,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-06 18:00:36,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-06 18:02:00,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-06 18:39:54,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-09-06 18:51:15,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-06 19:23:22,Ritual,Consistency,Apurwa,0,2,2,0
+0,Knowledge Sharing,2019-09-07 3:57:19,Ritual,"Consistency,Curiosity",Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-07 8:48:50,Ritual,Consistency,Arya,0,2,2,0
+0,AjKyaUkhada,2019-09-07 12:34:01,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-07 16:03:36,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-07 16:04:03,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-07 16:25:15,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-07 16:26:15,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-07 16:46:36,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-07 17:26:43,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-07 17:43:16,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-07 17:46:43,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-07 17:48:00,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-07 18:16:22,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-07 18:18:20,Ritual,Consistency,Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-07 18:24:27,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-07 18:27:31,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-07 19:01:51,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-08 3:45:38,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-08 13:53:16,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-08 13:53:55,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-08 13:54:36,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-08 13:56:08,Ritual,Consistency,Arya,0,2,2,0
+0,AjKyaUkhada,2019-09-08 13:57:11,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-08 14:08:04,Ritual,Consistency,Sonali,0,2,2,0
+0,AjKyaUkhada,2019-09-08 15:21:08,Ritual,Consistency,Ujjainee,0,2,2,0
+0,AjKyaUkhada,2019-09-08 15:21:57,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-09-08 15:23:22,Ritual,Consistency,Swaastick,0,2,2,0
+0,AjKyaUkhada,2019-09-08 15:31:00,Ritual,Consistency,Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-08 15:46:04,Ritual,Consistency,Siddhishikha,0,2,2,0
+0,AjKyaUkhada,2019-09-08 16:14:06,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-08 16:15:16,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-08 16:24:38,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-08 17:15:51,Ritual,Consistency,Sharika,0,2,2,0
+0,Knowledge Sharing,2019-09-08 17:16:22,Ritual,"Consistency,Curiosity",Sharika,0,2,2,0
+0,AjKyaUkhada,2019-09-08 17:39:34,Ritual,Consistency,Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-08 17:39:58,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-08 18:05:14,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-08 18:58:19,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-08 19:13:37,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-08 19:18:20,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-09 3:45:18,Ritual,Consistency,Sonali,0,2,2,0
+0,Knowledge Sharing,2019-09-09 4:25:25,Ritual,"Consistency,Curiosity",Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-09 8:02:49,Ritual,Consistency,Kaushal,0,2,2,0
+0,Knowledge Sharing,2019-09-09 15:56:33,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:00:36,Ritual,Consistency,Ujjainee,0,2,2,0
+0,Knowledge Sharing,2019-09-09 16:01:03,Ritual,"Consistency,Curiosity",Surabhi,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:02:23,Ritual,Consistency,Surabhi,0,2,2,0
+0,Knowledge Sharing,2019-09-09 16:04:59,Ritual,"Consistency,Curiosity",Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:09:54,Ritual,Consistency,Bhavna,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:30:43,Ritual,Consistency,Purbita,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:32:51,Ritual,Consistency,Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:50:59,Ritual,Consistency,Dipam,0,2,2,0
+0,AjKyaUkhada,2019-09-09 16:54:15,Ritual,Consistency,Durga,0,2,2,0
+0,AjKyaUkhada,2019-09-09 17:07:01,Ritual,Consistency,Chandrima,0,2,2,0
+0,Knowledge Sharing,2019-09-09 17:12:16,Ritual,"Consistency,Curiosity",Kunal,0,2,2,0
+0,AjKyaUkhada,2019-09-09 17:31:12,Ritual,Consistency,Shantanu,0,2,2,0
+0,AjKyaUkhada,2019-09-09 17:38:42,Ritual,Consistency,,0,2,2,0
+0,AjKyaUkhada,2019-09-09 18:15:19,Ritual,Consistency,Shakib,0,2,2,0
+0,AjKyaUkhada,2019-09-09 19:25:21,Ritual,Consistency,Kaushal,0,2,2,0
+0,AjKyaUkhada,2019-09-09 19:27:18,Ritual,Consistency,Vishal,0,2,2,0
+0,AjKyaUkhada,2019-09-09 20:08:02,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-09 20:08:52,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-09 20:09:53,Ritual,Consistency,Prasoon,0,2,2,0
+0,AjKyaUkhada,2019-09-09 20:28:38,Ritual,Consistency,Apurwa,0,2,2,0
+0,AjKyaUkhada,2019-09-10 7:28:59,Ritual,Consistency,Sharika,0,2,2,0
+0,Knowledge Sharing,2019-09-10 8:17:51,Ritual,"Consistency,Curiosity",Purbita,0,2,2,0
+0,Knowledge Sharing,2019-09-10 8:24:44,Ritual,"Consistency,Curiosity",Chandrima,0,2,2,0
+0,AjKyaUkhada,2019-09-10 9:20:29,Ritual,Consistency,Swaastick,0,2,2,0
