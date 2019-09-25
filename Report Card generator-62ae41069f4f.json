@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "report-card-generator",
+  "private_key_id": "62ae41069f4ffccd74595a7984b2fc73aa40076b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCrV5F0STOZhJmF\nUdpDJF1RijaCQesr6ryLLiZpiTKiXTPsPUdtislnMnPtdAQczWlIwo9EjNld/S1h\nBVLyFTgXj9qCsovb9R4ueQ40JeTNYrXCB3Li5zMm+FAXMvJUCG/g9zNkyXT866nb\nqYgp2bcVMCkU6FpxDbUF0IVuB83m3/lFK6wiO19sqmOEt4WE1Sc5Rs08ZXfb+8Ep\nyfVQv4r6l0E64cnfPsFXin8fQN6u/rOEswzU7gOSuzynp9VqkXG7OPzdcMfNIjFs\nnxvUOqTOoxN37GMHPj8RGAQDf8CoaBaR7jr6Y4m7349DAoqY8QYPobWTxjOqQzr5\njc05Nym3AgMBAAECgf9GEZvFfnMnvFU8l7BnPqJxBT85HeCCJ3ZtK0eif3K1eVvI\nj3eH4K2UsNZiVv0myi8lmDovTl4PzqQbiQu+ADiUpxTHLTzsTumU/03h+VP/ths8\nsZIrdWD1xa6ZhPkOZGTiV9OysvkSRIpo1lMn7sJLsQrSrKxoFVFl2Hi4W8HSG7jk\nGz+pU84tWzoGYRxWjJnX3WqcqqmFn0Q7s9yQodcFiiYIbk4764Knwgl4lVBCptUG\n1FkldtUF6jXspU546dG2nioPoH81Br6lc9YAJFFtIGbm1+p+a/zP9vlYTY5+dg2z\npK1NQXCSEggz9uGuG1d3xm5Y5OuntIzdAGA7J/UCgYEA2IOcUAbHXG1UJv2u/w8I\nTAmNg5y4BLYWHxM9yrMU6dkDKcDYmoHclGt+H+SvRcefguKQRF7GEvlwDutjSChX\n9m1L9IN5Cq1WQDhjdzCMY/s8W9WMCbdDtlqCYexnWEz15wh7U+svjbQAedgJBRQ9\nlvE39ziSzmrvjpcZgfNS2QsCgYEAypcC7+rEybJDfcsCfOd3EgDDqA6ta3ektZi/\nhNhtYUsm6u83V4q14exhx0r7+Ile9ruIZPY8fIlCzi3rBk29GzhdACurCSjhbWA7\nZTwK3ISlfhm2cD36LAi8O4DnvgglVWPhaZwlxSUwsTDDDWdE70GkgN3AzRxCz52Y\n6aYrlYUCgYEAnGMLv731t+v8EaHBCdfozUtFHSBQxo5jEhUK1+NcIsCuCTWS/p74\nHXg7BHxgoU1cCOTvAYNXHJNw/kXFU3RYfNVbPITOJAkpuH9CUPAPJ5Rrd4WafdYS\noZ9kd6iSyPPl1feJZQcGNRskEN4bPcDt753SJ86EM3aIC/1V3khLuhsCgYACp8YP\nFPmtVxvRW0bWEkaaQs5NtpuJTBEpnC3udNPCMbT54VbNW/EUW//QF+iDknFfNIgO\nIrgaPcZVY36wH3a6E5wMc4YTYajKwTcmFYpi544vv/CHOhi8WQT2lrLy57JtkxiS\nRMyt79XajLQRyee6Zxbb5YwwZA1wITWu4lGx7QKBgA0vh0FLKwUDHN8ZIrb5EEzv\nGsBT/dnR8gfiGJh9LxEL0HVABfcTLL6hqv6pd66SNfWD15rhl1jA0CMeJ40ORjU2\ngAkeBLAp1HgVKefXJVjzUasC1W8j2IChgK89wL974Ne8DcvkO7kzCb0YZa2hrFqR\nOvvBqrudDJq8haWnJvf6\n-----END PRIVATE KEY-----\n",
+  "client_email": "report-card-generator@report-card-generator.iam.gserviceaccount.com",
+  "client_id": "103055128869451603853",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/report-card-generator%40report-card-generator.iam.gserviceaccount.com"
+}
