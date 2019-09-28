@@ -6,8 +6,8 @@ class Main:
         self.data  =  self.creat_data("Student Gradebook.xlsx")
         self.data  =  self.Add_Month_column(self.data)
         #self.today  =  date.today()
-        given_name  =  "Vishal"
-        given_month  =  "August"
+        given_name = "Vishal"
+        given_month = "August"
         cwd  =  os.getcwd()
         try:
             os.mkdir(cwd+"\\" + given_name+"_"+given_month)
