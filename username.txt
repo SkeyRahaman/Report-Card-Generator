@@ -1,0 +1,22 @@
+name,email
+Durga,durgaa219@gmail.com
+Sharika,sharikaanjumm@gmail.com
+Swaastick,meightpc@gmail.com
+Apurwa,aryaapurwa08@gmail.com
+Purbita,purbita1998@gmail.com
+Dipam,dipamhazra1999@gmail.com
+Sonali,sonaliknr@gmail.com
+Anjali,anjaliksahar@gmail.com
+Bhavna,bhavnagupta0103@gmail.com
+Arya,neelarya80@gmail.com
+Sushree,siddhishikha1998@gmail.com
+Vishal,vishalmalo272000@gmail.com
+Prasoon,prasoonthakur5@gmail.com
+Surabhi,2titi4@gmail.com,
+Kunal N.,gohranikunal25@outlook.com
+Md Shakib,sakibmondal7@gmail.com
+Shantanu,shantanu0707@gmail.com
+Chandrima,sarkarchandrima12@gmail.com
+Kaushal,kaushal.uemk@gmail.com
+Roumyak,biswas.roumyak49@gmail.com
+Ujjainee,bibide06@gmail.com
