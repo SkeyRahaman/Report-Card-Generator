@@ -6,7 +6,7 @@ class Main:
         self.data = self.creat_data("Student Gradebook.xlsx")
         self.data = self.Add_Month_column(self.data)
         #self.today = date.today()
-        given_name = "Vishal"
+        given_name = "Siddhishikha"
         given_month = "August"
         cwd = os.getcwd()
         try:
