@@ -4,9 +4,11 @@ class Main:
         self.url = "https://docs.google.com/spreadsheets/d/1HYjfEe3aCbufbqIXKs0Xz-gfoQNztGhCN1ivx0gZXnc/export?format = xlsx"    
         self.Clone_the_dataset_to_this_machine(self.url)
         self.data = self.creat_data("Student Gradebook.xlsx")
+        self.data = self.Data_cleaning()
         self.data = self.Add_Month_column(self.data)
+        self.data = self.Add_heighest_marks_column(self.data)
         #self.today = date.today()
-        given_name = "Siddhishikha"
+        given_name = "Kunal"
         given_month = "August"
         cwd = os.getcwd()
         try:
@@ -77,15 +79,27 @@ class Main:
         data["Month"] = date_list
         data["Year"] = year_list
         return data
-    def Return_prepared_data(self):
-        print(self.data.shape)
+
+    def Add_heighest_marks_column(self,data):
+        a = data['Task'].value_counts().index
+        highest = []
+        for i in a:
+            highest.append(max(data[data['Task'] == i]['Points']))
+        data_highest_table = {'Task': a, 'Highest': highest}
+        data_high = pd.DataFrame(data_highest_table)
+        data = data.merge(data_high, on='Task')
+        return data
+
+    def Data_cleaning(self):
+        working_data = self.data
+        return working_data
         
     def Start_making_pdf_of(self, name, month):
         self.Name = name
         self.College = "GCELT"
         self.Year = "First"
         self.Month = month
-        self.Date = str(date.today().strftime("%d/%m/%Y"))
+        self.Date = str(date.today().strftime("%d %B  %Y"))
         self.Email = "sakibmondal7@gmail.com"
         self.Number_of_task_wins = self.number_of_task_wins(self.Name, self.Month)
         self.Rank_among_the_class = self.rank_of_the_student(self.Name, self.Month)
@@ -105,40 +119,79 @@ class Main:
         return str(working_data['id'].count())
     
     def rank_of_the_student(self, name, month):
-        working_data = self.data
-        return str(5)
+        data_working = self.data[self.data['Month'] == month]
+        data_task = data_working[data_working['Module'] != 'Ritual']
+        data_rank = data_task.groupby('Student')['Points'].sum().sort_values(ascending=False).reset_index()
+        inx = data_rank['Student'].tolist()
+        i = pd.Index(inx).get_loc(name)
+        return str(i + 1)
     
     def late_Submition_Ratio(self, name, month):
-        working_data = self.data
-        return str(0.5)
+        data_working = self.data[self.data['Month'] == month]
+        data_student = data_working[data_working['Student'] == name]
+        p = len(data_working[data_working['Module'] != 'Ritual']['Task'].value_counts().index)
+        q = len(data_student[data_student['Late Submission'] == 1])
+        ratio = q / p
+        return str(round(ratio))
         
     def percentage_of_the_student(self, name, month):
-        working_data = self.data
-        return str(88)
+        data_working = self.data[self.data['Month'] == month]
+        data_student = data_working[data_working['Student'] == name]
+        data_task = data_student[data_student['id'] != 0]
+        a = data_task['Points'].sum()
+        b = data_task['Total'].sum()
+        percentage = (a / b) * 100
+        return str(round(percentage))
     
     def percentile_of_the_student(self, name, month):
-        working_data = self.data
-        return str(95)
+        data_working = self.data[self.data['Month'] == month]
+        a = int(self.rank_of_the_student(name, month))
+        b = len(self.data['Student'].value_counts().index)
+        c = ((b - a) / b) * 100
+        return str(round(c))
     
     def table_Content(self, name, month):
-        working_data = self.data
-        a = [["1Data Analytics", 30.0, 26.0, 23.0, 89], 
-             ["2Introduction to", 30.0, 26.0, 23.0, 89], 
-             ["3Data Analytics", 30.0, 26.0, 23.0, 89], 
-             ["4Data Analytics", 30.0, 26.0, 23.0, 89], 
-             ["5Introduction to", 30.0, 26.0, 23.0, 89]]
-        return a
+
+        data_working = self.data[self.data['Month'] == month]
+        data_working = data_working[data_working["Module"] != "Ritual"]
+        data_student = data_working[data_working['Student'] == name]
+        x1 = data_student.pivot_table(index='Module', values='Points', aggfunc='sum')
+        y1 = data_student.pivot_table(index='Module', values='Total', aggfunc='sum')
+        w1 = data_student.pivot_table(index='Module', values='Highest', aggfunc='sum')
+        z1 = pd.concat([x1, y1, w1], axis=1)
+        subject_percentile = [x1['Points'] / y1['Total'] * 100]
+        z1['Percentile'] = " "
+        for i in range(len(z1)):
+            z1['Percentile'][i] = round(subject_percentile[0][i])
+        z1.to_html('z_total.html')
+        df = pd.read_html('z_total.html')
+        Table_elements = df[0].values.tolist()
+        return Table_elements
     
     def table_summary(self, name, month):
-        working_data = self.data
-        return ["TOTAL", 89, 26.0, 23.0, None]
+        data_working = self.data[self.data['Month'] == month]
+        data_working = data_working[data_working["Module"] != "Ritual"]
+        data_student = data_working[data_working['Student'] == name]
+        x1 = data_student.pivot_table(index='Module', values='Points', aggfunc='sum')
+        y1 = data_student.pivot_table(index='Module', values='Total', aggfunc='sum')
+        w1 = data_student.pivot_table(index='Module', values='Highest', aggfunc='sum')
+        z1 = pd.concat([x1, y1, w1], axis=1)
+        subject_percentile = [x1['Points'] / y1['Total'] * 100]
+        z1['Percentile'] = " "
+        for i in range(len(z1)):
+            z1['Percentile'][i] = subject_percentile[0][i]
+        j = z1['Points'].sum()
+        k = None
+        l = z1['Highest'].sum()
+        t = list(["Total",j, k, l,self.percentage_of_the_student(name,month)])
+        return t
     
     def main_of_pdf(self, name, month):
         c = canvas.Canvas((self.file_loc + name+"_"+month+".pdf"), bottomup = 1, pagesize = A4)
         c = self.draw_border(c, 35)
         c = self.draw_border(c, 32.5)
         c = self.draw_border(c, 30)
-        c = self.draw_intro(c, 25)
+        c = self.draw_intro(c, 25,name)
         c = self.draw_table(c)
         c = self.draw_comparison_table(c)
         c = self.draw_acknowledgement(c, 22)
@@ -152,7 +205,7 @@ class Main:
         c.line(595.27-m, m, 595.27-m, 841.89-m)
         return c
     
-    def draw_intro(self, c, Spacing):
+    def draw_intro(self, c, Spacing, name):
         c.setFont('Times-Bold', 28)
         c.setFillColorRGB(0, 0, 0.77)
         c.drawCentredString(595.27/2+50, 750, text = 'CampusX Mentorship Programme')
@@ -166,8 +219,8 @@ class Main:
         c.drawString(45, 680-2*Spacing, 'MONTH:-'+self.Month)
         c.drawString(45, 680-3*Spacing, 'Email Address:- ' + self.Email)
         c.line(35, 680-3.5*Spacing, 560.27, 680-3.5*Spacing)
-        c.drawInlineImage(image = "campusX_false_logo.png", x = 45, y = 700, width = 85, height = 100)
-        c.drawInlineImage(image = "Photo_InkedcampusX_false_logo_LI.jpg", x = 440, y = 600, width = 100, height = 115)
+        c.drawInlineImage(image = "campusX_Final.jpg", x = 45, y = 700, width = 85, height = 100)
+        c.drawInlineImage(image = ("Photo/" + name + ".jpg"), x = 425, y = 600, width = 115, height = 115)
         return c
     
 
@@ -175,7 +228,7 @@ class Main:
     def draw_table(self, c):
         c.drawInlineImage(image = "TABLE_MODULES.jpg", x = 45, y = 410, width = 500, height = 180)
         c.setFont('Times-Bold', 10)
-        Heading = ['MODULE', 'Full Marks', 'Heighest Marks', "Your Marks", 'Percentyle']
+        Heading = ['MODULE',"Your Marks", 'Full Marks', 'Highest Marks',  'Percentage']
         for i in range(len(Heading)):
             c.drawCentredString(95+i*100, 575, Heading[i])
         writing_row = 555
