@@ -1,50 +1,38 @@
+import difflib
+
+
 class Main:
     def __init__(self):
-        # self.Import_Required_Library()
-        self.url = "https://docs.google.com/spreadsheets/d/1HYjfEe3aCbufbqIXKs0Xz-gfoQNztGhCN1ivx0gZXnc/export?format = xlsx"    
-        self.Clone_the_dataset_to_this_machine(self.url)
-        self.data = self.creat_data("Data\\" + "Student Gradebook.xlsx")
-        self.data = self.Data_cleaning()
-        self.data = self.Add_Month_column(self.data)
-        self.data = self.Add_heighest_marks_column(self.data)
-        #self.today = date.today()
         given_name = "Siddhishikha"
         given_month = "August"
         self.cwd = os.getcwd()
+        self.Make_Directorys(given_name,given_month)
+        self.url = "https://docs.google.com/spreadsheets/d/1HYjfEe3aCbufbqIXKs0Xz-gfoQNztGhCN1ivx0gZXnc/export?format = xlsx"
+        self.Clone_the_dataset_to_this_machine(self.url)
+        self.user_data = self.Get_user_data()
+        data = self.creat_data("Data\\" + "Student Gradebook.xlsx")
+        data = self.Data_cleaning(data)
+        self.data = self.Add_Month_column(data)
+        self.data = self.Add_heighest_marks_column(self.data)
+        self.file_loc = self.cwd+"\\" + "Report_card\\" + given_month + "\\" + given_name+"_"+given_month + "\\"
+        self.Start_making_pdf_of(given_name, given_month)
 
+    def Make_Directorys(self, name, month):
         try:
             os.mkdir(self.cwd+"\\" +"Report_card")
         except:
-            None
+            print("Can't creat the folder with name Report card")
 
         try:
-            os.mkdir(self.cwd+"\\" + "Report_card\\" + given_month)
+            os.mkdir(self.cwd+"\\" + "Report_card\\" + month)
         except:
-            None
+            print("Holona2")
 
         try:
-            os.mkdir(self.cwd+"\\" + "Report_card\\" + given_month + "\\" + given_name+"_"+given_month)
+            os.mkdir(self.cwd+"\\" + "Report_card\\" + month + "\\" + name+"_"+month)
         except:
-            None
-        self.file_loc = self.cwd+"\\" + "Report_card\\" + given_month + "\\" + given_name+"_"+given_month + "\\"
-        self.user_data = self.Get_user_data()
-        self.Start_making_pdf_of(given_name, given_month)
-        
-        
-    def Import_Required_Library(self):
-        from datetime import date
-        from datetime import datetime
-        from reportlab.pdfgen import canvas
-        from reportlab.lib.units import inch
-        from reportlab.lib.pagesizes import A4
-        import pandas as pd
-        import numpy as np
-        import openpyxl
-        import requests
-        import seaborn as sns
-        import matplotlib.pyplot as plt
-        from math import pi
-        import os
+            print("Holona3")
+
 
     def Get_user_data(self):
         user_data = pd.read_csv(self.cwd + "\\Data\\" + "users.csv")
@@ -106,9 +94,25 @@ class Main:
         data = data.merge(data_high, on='Task')
         return data
 
-    def Data_cleaning(self):
-        working_data = self.data
-        return working_data
+    def Data_cleaning(self, data):
+        name_and_def_name = {}
+        corrected_name = []
+        for i in range(len(self.user_data)):
+            name_and_def_name[self.user_data['Full_name'][i]] = self.user_data['Df_name'][i]
+
+        all_full_names = list(name_and_def_name.keys())
+        names = list(self.user_data["Df_name"])
+        for i in data["Student"].values:
+            if i in names:
+                corrected_name.append(i)
+            else:
+                suggested_name = difflib.get_close_matches(str(i), all_full_names, cutoff=0.5)
+                if len(suggested_name) == 0:
+                    corrected_name.append("Not_a_student")
+                else:
+                    corrected_name.append(name_and_def_name[suggested_name[0]])
+        data["Student"] = corrected_name
+        return data[data["Student"] != "Not_a_student"]
         
     def Start_making_pdf_of(self, name, month):
         self.Full_Name = str(self.user_data[self.user_data["Df_name"] == name].iloc[0]["Full_name"])
@@ -180,9 +184,10 @@ class Main:
         z1['Percentile'] = " "
         for i in range(len(z1)):
             z1['Percentile'][i] = round(subject_percentile[0][i])
-        z1.to_html('z_total.html')
-        df = pd.read_html('z_total.html')
+        z1.to_html('Data\\z_total.html')
+        df = pd.read_html('Data\\z_total.html')
         Table_elements = df[0].values.tolist()
+
         return Table_elements
     
     def table_summary(self, name, month):
@@ -384,5 +389,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 #from math import pi
 import os
+import difflib
 Shakib = Main()
 
