@@ -3,19 +3,31 @@ class Main:
         # self.Import_Required_Library()
         self.url = "https://docs.google.com/spreadsheets/d/1HYjfEe3aCbufbqIXKs0Xz-gfoQNztGhCN1ivx0gZXnc/export?format = xlsx"    
         self.Clone_the_dataset_to_this_machine(self.url)
-        self.data = self.creat_data("Student Gradebook.xlsx")
+        self.data = self.creat_data("Data\\" + "Student Gradebook.xlsx")
         self.data = self.Data_cleaning()
         self.data = self.Add_Month_column(self.data)
         self.data = self.Add_heighest_marks_column(self.data)
         #self.today = date.today()
-        given_name = "Kunal"
+        given_name = "Siddhishikha"
         given_month = "August"
-        cwd = os.getcwd()
+        self.cwd = os.getcwd()
+
         try:
-            os.mkdir(cwd+"\\" + given_name+"_"+given_month)
+            os.mkdir(self.cwd+"\\" +"Report_card")
         except:
             None
-        self.file_loc = cwd+"\\" + given_name+"_"+given_month + "\\"
+
+        try:
+            os.mkdir(self.cwd+"\\" + "Report_card\\" + given_month)
+        except:
+            None
+
+        try:
+            os.mkdir(self.cwd+"\\" + "Report_card\\" + given_month + "\\" + given_name+"_"+given_month)
+        except:
+            None
+        self.file_loc = self.cwd+"\\" + "Report_card\\" + given_month + "\\" + given_name+"_"+given_month + "\\"
+        self.user_data = self.Get_user_data()
         self.Start_making_pdf_of(given_name, given_month)
         
         
@@ -33,12 +45,16 @@ class Main:
         import matplotlib.pyplot as plt
         from math import pi
         import os
+
+    def Get_user_data(self):
+        user_data = pd.read_csv(self.cwd + "\\Data\\" + "users.csv")
+        return user_data
         
         
     def Clone_the_dataset_to_this_machine(self, url):
         a = requests.get(url)
         resp = requests.get(url)
-        output = open('Student Gradebook.xlsx',  'wb')
+        output = open("data\\" + 'Student Gradebook.xlsx',  'wb')
         output.write(resp.content)
         output.close()
         
@@ -95,12 +111,13 @@ class Main:
         return working_data
         
     def Start_making_pdf_of(self, name, month):
+        self.Full_Name = str(self.user_data[self.user_data["Df_name"] == name].iloc[0]["Full_name"])
         self.Name = name
-        self.College = "GCELT"
+        self.College = str(self.user_data[self.user_data["Df_name"] == name].iloc[0]["college"]).split(",")[0]
         self.Year = "First"
         self.Month = month
         self.Date = str(date.today().strftime("%d %B  %Y"))
-        self.Email = "sakibmondal7@gmail.com"
+        self.Email = str(self.user_data[self.user_data["Df_name"] == name].iloc[0]["email"])
         self.Number_of_task_wins = self.number_of_task_wins(self.Name, self.Month)
         self.Rank_among_the_class = self.rank_of_the_student(self.Name, self.Month)
         self.Late_submition_ratio = self.late_Submition_Ratio(self.Name, self.Month)
@@ -213,20 +230,21 @@ class Main:
         c.setFont('Times-Roman', 22)
         c.drawCentredString(320, 720, text = 'Machine Learning')
         c.setFont('Times-Roman', 18)
-        c.drawString(45, 680, ('NAME:-' + self.Name))
+        c.drawString(45, 680, ('NAME:-' + self.Full_Name))
         c.drawString(45, 680-Spacing, 'COLLEGE:-'+self.College)
         # c.drawString(285, 680-2*Spacing, 'YEAR:-'+info.Year)
         c.drawString(45, 680-2*Spacing, 'MONTH:-'+self.Month)
         c.drawString(45, 680-3*Spacing, 'Email Address:- ' + self.Email)
         c.line(35, 680-3.5*Spacing, 560.27, 680-3.5*Spacing)
-        c.drawInlineImage(image = "campusX_Final.jpg", x = 45, y = 700, width = 85, height = 100)
-        c.drawInlineImage(image = ("Photo/" + name + ".jpg"), x = 425, y = 600, width = 115, height = 115)
+        path = self.cwd + "Resource\\"
+        c.drawInlineImage(image = (self.cwd + "\\Photo\\"+"campusX_Final.jpg"), x= 45, y = 700, width = 85, height = 100)
+        c.drawInlineImage(image = (self.cwd + "\\Photo\\Student_photo\\" + name + ".jpg"), x= 425, y = 600, width = 115, height = 115)
         return c
     
 
     
     def draw_table(self, c):
-        c.drawInlineImage(image = "TABLE_MODULES.jpg", x = 45, y = 410, width = 500, height = 180)
+        c.drawInlineImage(image = (self.cwd+ "\\Photo\\" + "TABLE_MODULES.jpg"), x= 45, y = 410, width= 500, height = 180)
         c.setFont('Times-Bold', 10)
         Heading = ['MODULE',"Your Marks", 'Full Marks', 'Highest Marks',  'Percentage']
         for i in range(len(Heading)):
@@ -346,7 +364,7 @@ class Main:
     
     
         c.drawString(300, 45+4*Spacing, 'Overall percentage :-'+ self.Percentage + "%")
-        c.drawString(300, 45+3*Spacing, 'Overall1 percentyle:-'+ self.Percentile + "%")
+        c.drawString(300, 45+3*Spacing, 'Overall percentile:-'+ self.Percentile)
         c.drawString(300, 45+2*Spacing, 'Generated on:-'+self.Date)
         return c
     
