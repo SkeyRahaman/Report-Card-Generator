@@ -1,0 +1,10 @@
+Hi ${PERSON_NAME}, 
+
+	“When the vision is clear, the results will appear. Keep your mindset positive as you work your plan, flourish, and always remember why you started.”
+
+
+	Hope that you had an amazing time with us through out the month, and learnt some new technology, which you will be implementing in near future.This is to inform you that your CampusX Mentorship Programme's Report card for the month of ${MONTH_NAME} is generated and attached with this mail.
+
+
+	Administrator
+CampusX Mentorship Programme

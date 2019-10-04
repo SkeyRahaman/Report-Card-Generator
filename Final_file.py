@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import os
 import difflib
 import smtplib
-import Shakib
+from photos_and_other_requirement import email_credentials
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -49,8 +49,7 @@ class Main:
             print("Can't create the folder with path", "  ", path)
 
     def Get_user_data(self):
-        user_data = pd.read_csv(self.cwd + "\\Data\\" + "users.csv")
-        return user_data
+        return pd.read_csv(self.cwd + "\\Data\\" + "users.csv")
 
     def Clone_the_dataset_to_this_machine(self, path, url):
         a = requests.get(url)
@@ -67,26 +66,22 @@ class Main:
                 data = pd.concat([data, pd.read_excel(file, sheet_name=i)])
             except:
                 data = pd.read_excel(file, sheet_name=0)
-            # print(data.shape)
         return data
 
     def Add_Month_column(self, data):
         date_list = []
         day_list = []
         year_list = []
-        a = 0
         for i in data["Date"]:
             try:
                 date_list.append(i.strftime("%B"))
                 day_list.append(i.strftime("%d"))
                 year_list.append(i.strftime("%Y"))
-                a += 1
             except:
                 try:
                     date_list.append(datetime.strptime(str(i), "%d/%m/%Y").strftime("%B"))
                     day_list.append(datetime.strptime(str(i), "%d/%m/%Y").strftime("%d"))
                     year_list.append(datetime.strptime(str(i), "%d/%m/%Y").strftime("%Y"))
-                    a += 1
                 except:
                     print("Interrupt in a line number : - ", a, "which is having a entry of:-", i)
                     break
@@ -102,8 +97,7 @@ class Main:
             highest.append(max(data[data['Task'] == i]['Points']))
         data_highest_table = {'Task': a, 'Highest': highest}
         data_high = pd.DataFrame(data_highest_table)
-        data = data.merge(data_high, on='Task')
-        return data
+        return data.merge(data_high, on='Task')
 
     def Data_cleaning(self, data):
         name_and_def_name = {}
@@ -163,7 +157,7 @@ class Main:
         p = len(data_working[data_working['Module'] != 'Ritual']['Task'].value_counts().index)
         q = len(data_student[data_student['Late Submission'] == 1])
         ratio = q / p
-        return str(round(ratio))
+        return str(round(ratio, 2))
 
     def percentage_of_the_student(self, name, month):
         data_working = self.data[self.data['Month'] == month]
@@ -193,8 +187,7 @@ class Main:
             z1['Percentile'][i] = round(subject_percentile[0][i])
         z1.to_html('Data\\z_total.html')
         df = pd.read_html('Data\\z_total.html')
-        Table_elements = df[0].values.tolist()
-        return Table_elements
+        return df[0].values.tolist()
 
     def table_summary(self, name, month):
         data_working = self.data[self.data['Month'] == month]
@@ -211,8 +204,7 @@ class Main:
         j = z1['Points'].sum()
         k = None
         l = z1['Highest'].sum()
-        t = list(["Total", j, k, l, self.percentage_of_the_student(name, month)])
-        return t
+        return list(["Total", j, k, l, self.percentage_of_the_student(name, month)])
 
     def main_of_pdf(self, name, month):
         c = canvas.Canvas((self.file_loc + name + "_" + month + ".pdf"), bottomup=1, pagesize=A4)
@@ -247,14 +239,13 @@ class Main:
         c.drawString(45, 680 - 2 * Spacing, 'MONTH:-' + self.Month)
         c.drawString(45, 680 - 3 * Spacing, 'Email Address:- ' + self.Email)
         c.line(35, 680 - 3.5 * Spacing, 560.27, 680 - 3.5 * Spacing)
-        path = self.cwd + "Resource\\"
-        c.drawInlineImage(image=(self.cwd + "\\Photo\\" + "campusX_Final.jpg"), x=45, y=700, width=85, height=100)
-        c.drawInlineImage(image=(self.cwd + "\\Photo\\Student_photo\\" + name + ".jpg"), x=425, y=600, width=115,
+        c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\" + "campusX_Final.jpg"), x=40, y=705, width=90, height=90)
+        c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\Student_photo\\" + name + ".jpg"), x=425, y=600, width=115,
                           height=115)
         return c
 
     def draw_table(self, c):
-        c.drawInlineImage(image=(self.cwd + "\\Photo\\" + "TABLE_MODULES.jpg"), x=45, y=410, width=500, height=180)
+        c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\" + "TABLE_MODULES.jpg"), x=45, y=410, width=500, height=180)
         c.setFont('Times-Bold', 10)
         Heading = ['MODULE', "Your Marks", 'Full Marks', 'Highest Marks', 'Percentage']
         for i in range(len(Heading)):
@@ -304,6 +295,7 @@ class Main:
         plot.get_figure().savefig((self.file_loc + Name + "_" + Month_name + "_" + "graph1.jpg"), dpi=300,
 
                                   bbox_inches='tight')
+        del(plot)
 
     def Creat_spided_plot(self, name, month):
         working_data = self.data
@@ -378,29 +370,34 @@ class Main:
         return c
 
     def Send_mail_login(self, month):
-        #login = 0
         server = smtplib.SMTP("smtp.gmail.com:587")
+        login= 0
         server.ehlo()
         server.starttls()
         server.ehlo()
-
-        server.login(Shakib.EMAIL_ADDRESS, Shakib.PASSWORD)
-        server = self.Send_mail_body(server, month)
-        server.quit()
+        try:
+            server.login(email_credentials.EMAIL_ADDRESS, email_credentials.PASSWORD)
+            login= 1
+        except:
+            print("Can not connect to the server.")
+        if login == 1:
+            server = self.Send_mail_body(server, month)
+            server.quit()
 
     def Send_mail_body(self, server, month):
         names = list(self.user_data.Full_name)
         emails = list(self.user_data.Try_email)
         df_name = list(self.user_data.Df_name)
+        number = 0
         for name, short_name, email in zip(names, df_name, emails):
-            print(name)
+            print(number, " :- " , name)
             msg = MIMEMultipart()
 
-            msg['From'] = Shakib.EMAIL_ADDRESS
+            msg['From'] = email_credentials.EMAIL_ADDRESS
             msg['To'] = email
             msg['Subject'] = "Result for the month of " + str(month)
             # add in the message body
-            message = self.read_template("Photo/format.txt").substitute(PERSON_NAME=name)
+            message = self.read_template("photos_and_other_requirement/format.txt").substitute(PERSON_NAME=name,MONTH_NAME=month)
             msg.attach(MIMEText(message, 'plain'))
 
             # open the file to be sent
@@ -433,4 +430,4 @@ class Main:
         return Template(template_file_content)
 
 
-Shakib = Main()
+Main_call = Main()
