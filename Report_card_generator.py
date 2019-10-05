@@ -184,7 +184,7 @@ class Main:
         subject_percentile = [x1['Points'] / y1['Total'] * 100]
         z1['Percentile'] = " "
         for i in range(len(z1)):
-            z1['Percentile'][i] = round(subject_percentile[0][i])
+            z1['Percentile'][i] = round(subject_percentile[0][i],1)
         z1.to_html('Data\\z_total.html')
         df = pd.read_html('Data\\z_total.html')
         return df[0].values.tolist()
@@ -239,7 +239,7 @@ class Main:
         c.drawString(45, 680 - 2 * Spacing, 'MONTH:-' + self.Month)
         c.drawString(45, 680 - 3 * Spacing, 'Email Address:- ' + self.Email)
         c.line(35, 680 - 3.5 * Spacing, 560.27, 680 - 3.5 * Spacing)
-        c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\" + "campusX_Final.jpg"), x=40, y=705, width=90, height=90)
+        c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\" + "campusX_Final.jpg"), x=45, y=700, width=80, height=100)
         c.drawInlineImage(image=(self.cwd + "\\photos_and_other_requirement\\Student_photo\\" + name + ".jpg"), x=425, y=600, width=115,
                           height=115)
         return c
@@ -361,12 +361,17 @@ class Main:
         c.drawString(45, 45 + 4 * Spacing, 'Number of task wins:-' + self.Number_of_task_wins)
         c.drawString(45, 45 + 3 * Spacing, 'Rank among the class:-' + self.Rank_among_the_class)
         c.drawString(45, 45 + 2 * Spacing, 'Late submission ratio:-' + self.Late_submition_ratio)
-        c.drawString(45, 45 + Spacing, 'Teacher’s signature:-')
-        c.drawString(45, 45, 'Remark:-')
+
 
         c.drawString(300, 45 + 4 * Spacing, 'Overall percentage :-' + self.Percentage + "%")
         c.drawString(300, 45 + 3 * Spacing, 'Overall percentile:-' + self.Percentile)
         c.drawString(300, 45 + 2 * Spacing, 'Generated on:-' + self.Date)
+
+        c.setFont('Times-Roman', 10)
+        c.drawString(45, 45 + Spacing, '*This is a computer-generated document. No signature is required.')
+        c.drawString(45, 45, 'For any queries:-  https://mywbut.com')
+
+
         return c
 
     def Send_mail_login(self, month):
