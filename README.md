@@ -9,3 +9,13 @@ This has three sections
 
 list of libraries ( we have used):
 1. [pandas](https://en.wikipedia.org/wiki/Pandas_(software))
+2. [numpy](https://en.wikipedia.org/wiki/NumPy)
+3. [openpyxl](https://stackoverflow.com/tags/openpyxl/info)
+4. [requests](https://en.wikipedia.org/wiki/Requests_(software))
+5. [seaborn](https://en.wikipedia.org/wiki/Seaborn)
+6. [matplotlib](https://en.wikipedia.org/wiki/Matplotlib)
+7. [difflib](https://docs.python.org/3/library/difflib.html)
+8. [smtplib](https://docs.python.org/3/library/smtplib.html)
+9. [encoders](https://github.com/threat9/routersploit/wiki/Encoders)
+10. [Template](https://www.geeksforgeeks.org/template-class-in-python/)
+
