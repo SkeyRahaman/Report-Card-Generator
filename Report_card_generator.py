@@ -40,7 +40,7 @@ class Main:
             self.file_loc = self.cwd + "\\" + "Report_card\\" + given_month + "\\" + given_name + "_" + given_month + "\\"
             self.Start_making_pdf_of(given_name, given_month)
 
-        self.Send_mail_login(given_month)
+        #self.Send_mail_login(given_month)
 
     def Make_Directorys(self, path):
         try:
