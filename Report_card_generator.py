@@ -90,6 +90,8 @@ class Main:
         data["Year"] = year_list
         return data
 
+    #CALCULATION OF HIGHEST MARKS
+
     def Add_heighest_marks_column(self, data):
         a = data['Task'].value_counts().index
         highest = []
@@ -98,6 +100,8 @@ class Main:
         data_highest_table = {'Task': a, 'Highest': highest}
         data_high = pd.DataFrame(data_highest_table)
         return data.merge(data_high, on='Task')
+
+    #DATA CLEANING
 
     def Data_cleaning(self, data):
         name_and_def_name = {}
@@ -136,12 +140,16 @@ class Main:
         self.Table_summary = self.table_summary(self.Name, self.Month)
         self.main_of_pdf(self.Name, self.Month)
 
+    # CALCULATION OF NUMBER OF TASK WINNER
+
     def number_of_task_wins(self, name, month):
         working_data = self.data
         working_data = working_data[working_data["Student"] == name]
         working_data = working_data[working_data["Month"] == month]
         working_data = working_data[working_data["Task Winner"] == 1]
         return str(working_data['id'].count())
+
+     # CALCULATION OF RANK OF STUDENT
 
     def rank_of_the_student(self, name, month):
         data_working = self.data[self.data['Month'] == month]
@@ -151,6 +159,8 @@ class Main:
         i = pd.Index(inx).get_loc(name)
         return str(i + 1)
 
+    # CALCULATION OF LATE SUBMISSION RATIO
+
     def late_Submition_Ratio(self, name, month):
         data_working = self.data[self.data['Month'] == month]
         data_student = data_working[data_working['Student'] == name]
@@ -158,6 +168,8 @@ class Main:
         q = len(data_student[data_student['Late Submission'] == 1])
         ratio = q / p
         return str(round(ratio, 2))
+
+    # CALCULATION OF PERCENTAGE OF THE STUDENT
 
     def percentage_of_the_student(self, name, month):
         data_working = self.data[self.data['Month'] == month]
@@ -167,10 +179,14 @@ class Main:
         b = data_task['Total'].sum()
         return str(round((a / b) * 100, 1))
 
+    # CALCULATION OF PERCENTILE OF THE STUDENT
+
     def percentile_of_the_student(self, name, month):
         a = int(self.rank_of_the_student(name, month))
         b = len(self.data['Student'].value_counts().index)
         return str(round(((b - a) / b) * 100, 1))
+
+    # DESIGNING A TABLE WITH RESULT ANALYSIS
 
     def table_Content(self, name, month):
 
@@ -188,6 +204,8 @@ class Main:
         z1.to_html('Data\\z_total.html')
         df = pd.read_html('Data\\z_total.html')
         return df[0].values.tolist()
+
+    # DESIGNING OF TABLE SUMMARY
 
     def table_summary(self, name, month):
         data_working = self.data[self.data['Month'] == month]
