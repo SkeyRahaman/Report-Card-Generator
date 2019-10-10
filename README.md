@@ -27,4 +27,4 @@ list of libraries ( we have used):
 2.Project Demo
 
 #### Team Members
-https://github.com/SkeyRahaman/Report-Card-Generator/blob/master/photos_and_other_requirement/Student_photo/Siddhishikha.jpg
+![](https://github.com/SkeyRahaman/Report-Card-Generator/blob/master/photos_and_other_requirement/Student_photo/Siddhishikha.jpg)
