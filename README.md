@@ -41,4 +41,7 @@ We have created a small video related to our project.You will get some brief ide
 
 Click above link to see the video.
 
-
+## Quick get Git
+Clone the repository and checkout a new branch.
+$ git clone https://github.com/SkeyRahaman/Report-Card-Generator
+$ git checkout -b 
