@@ -57,3 +57,4 @@ $ git clone https://github.com/SkeyRahaman/Report-Card-Generator
 
 [code](https://github.com/SkeyRahaman/Report-Card-Generator/blob/master/Report_card_generator.py)
 
+There you can find and get the information of the system(project) of rules. There are comment which helps a programmer-readable explanation or annotation in this code.
