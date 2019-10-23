@@ -53,3 +53,7 @@ $ git clone https://github.com/SkeyRahaman/Report-Card-Generator
 #### 4.View your branch in Github and create a Pull Request
 
 
+## Display of Coding part
+
+[code](https://github.com/SkeyRahaman/Report-Card-Generator/blob/master/Report_card_generator.py)
+
