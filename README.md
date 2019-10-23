@@ -42,6 +42,10 @@ We have created a small video related to our project.You will get some brief ide
 Click above link to see the video.
 
 ## Quick get Git
-Clone the repository and checkout a new branch.
+#### 1.Clone the repository and checkout a new branch.
+
+
 $ git clone https://github.com/SkeyRahaman/Report-Card-Generator
-$ git checkout -b 
+#### 2.Update the files you'd like to change
+#### 3.Push the changes upstream
+#### View your branch in Github and create a Pull Request
