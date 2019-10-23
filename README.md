@@ -58,3 +58,11 @@ $ git clone https://github.com/SkeyRahaman/Report-Card-Generator
 [code](https://github.com/SkeyRahaman/Report-Card-Generator/blob/master/Report_card_generator.py)
 
 There you can find and get the information of the system(project) of rules. There are comment which helps a programmer-readable explanation or annotation in this code.
+
+
+
+## Requirements
+[Required Things](https://github.com/SkeyRahaman/Report-Card-Generator/tree/master/photos_and_other_requirement)
+
+
+In the above link you can find the photos of the students  and some required documents which are used in the analysis and building of this project.
