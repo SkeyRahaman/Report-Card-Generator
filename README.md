@@ -37,3 +37,5 @@ We have created a small video related to our project
 
 
 [report card Generator](https://youtu.be/ILHm7PFtAOg)
+
+Click above link to see the video
