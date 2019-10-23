@@ -30,3 +30,8 @@ list of libraries ( we have used):
 "Sushree Siddhishikha"siddhishikha1998@gmail.com
 "Shakib Mondal"sakibmondal7@gmail.com
 "Dipam Hazra"dipamhazra1999@gmail.com
+
+
+#### Project Demo
+We have created a small video related to our project
+[report card Generator](https://youtu.be/ILHm7PFtAOg)
