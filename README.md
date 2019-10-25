@@ -38,7 +38,6 @@ list of libraries ( we have used):
 We have created a small video related to our project.You will get some brief idea about this.
 
 
-[![Watch the video](photos_and_other_requirement/Report card generatot Thumbnail.png)](https://youtu.be/LEbl6PP4ecY)
 
 ## Quick get Git
 #### 1.Clone the repository and checkout a new branch.
